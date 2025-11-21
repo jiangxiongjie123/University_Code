@@ -41,6 +41,7 @@ void search_student(student_list* list)
 	if (list->m_size == 0)
 	{
 		cout << "当前未录入学生信息！\n";
+		return;
 		system("pause");
 	}
 	else
@@ -73,7 +74,6 @@ int is_exist(student_list* list,string name)
 		if (list->student_array[i].m_name == name)
 		{
 			return i;
-			break;
 		}
 	}
 	return -1;
