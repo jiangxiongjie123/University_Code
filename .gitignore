@@ -1,0 +1,19 @@
+# VS项目缓存文件
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# 编译生成的文件
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+
+# 临时文件
+*.tmp
+*.bak
